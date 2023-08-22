@@ -1,7 +1,7 @@
 import * as React from "react";
 import Avatar from "@mui/material/Avatar";
-import { Box, Stack } from "@mui/system";
-import { Button, Divider, TextField } from "@mui/material";
+import { Box } from "@mui/system";
+import {  Divider, TextField } from "@mui/material";
 import PostCard from "../pages/PostCard";
 
 
@@ -21,7 +21,7 @@ const Feed = () => {
           p: 2,
         }}
       >
-        <Avatar src="./public/image4.jpg" alt="profile image"></Avatar>
+        <Avatar src="./img/image4.jpg" alt="profile image"></Avatar>
         <TextField
           id="filled-basic"
           label="Whats on your mind,Hems?"

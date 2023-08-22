@@ -13,7 +13,7 @@ import {
     ThumbUpOffAlt,
   } from "@mui/icons-material";
   import { Avatar, Box, Button, Divider, Stack } from '@mui/material';
-import { publicData } from '../data';
+import { publicData } from '../Data';
 
 
 const PostCard = () => {
