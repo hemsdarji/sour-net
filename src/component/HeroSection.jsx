@@ -1,10 +1,42 @@
-import { Box } from '@mui/material';
-import React from 'react'
+import * as React from "react";
+import Avatar from "@mui/material/Avatar";
+import { Box, Stack } from "@mui/system";
+import { Button, Divider, TextField } from "@mui/material";
+import PostCard from "../pages/PostCard";
 
-const HeroSection = () => {
-    return (
-        <Box flex={2} sx={{display:{xs :"none",sm : "block"},backgroundColor:"green"}}  >
-          hero section
-        </Box>
-      )}
-export default HeroSection;
+
+
+
+const Feed = () => {
+
+  
+
+  return (
+    <Box flex={3}>
+      <Box
+        sx={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          p: 2,
+        }}
+      >
+        <Avatar src="./public/image4.jpg" alt="profile image"></Avatar>
+        <TextField
+          id="filled-basic"
+          label="Whats on your mind,Hems?"
+          variant="filled"
+          sx={{ p: 1, marginLeft: 1 }}
+          fullWidth
+        />
+      </Box>
+      <Divider />
+
+
+      {/* card component start */}
+         <PostCard />
+         </Box>
+  );
+};
+
+export default Feed;

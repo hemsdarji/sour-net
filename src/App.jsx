@@ -9,7 +9,7 @@ const App = () => {
     <Box position="relative
     ">
       <NavBar />
-      <Stack direction= 'row' spacing={2}>
+      <Stack direction= 'row' sx={{ marginTop: '64px' }} spacing={2}>
         <LeftSide />
         <HeroSection />
         <RightSide />
