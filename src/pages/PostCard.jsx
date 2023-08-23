@@ -2,10 +2,7 @@ import React from 'react'
 import Card from "@mui/material/Card";
 import CardHeader from "@mui/material/CardHeader";
 import CardMedia from "@mui/material/CardMedia";
-import CardActions from "@mui/material/CardActions";
 import IconButton from "@mui/material/IconButton";
-import FavoriteIcon from "@mui/icons-material/Favorite";
-import ShareIcon from "@mui/icons-material/Share";
 import MoreVertIcon from "@mui/icons-material/MoreVert";
 import {
     InsertComment,
@@ -31,7 +28,7 @@ const PostCard = () => {
     {/* use map method  */}
 
     {publicData.map((data, index) => (
-      <Box key={index}>
+      <Box key={index} sx={{boxShadow:'1px 1px 2px rgb(0 0 0 / 0.4)',paddingBottom:4}}>
         <CardHeader
           avatar={<Avatar src={data.image} alt="profile image"></Avatar>}
           action={
@@ -49,14 +46,14 @@ const PostCard = () => {
           alt="Paella dish"
         />
 
-        <CardActions disableSpacing>
+        {/* <CardActions disableSpacing>
           <IconButton aria-label="add to favorites">
-            <FavoriteIcon />
+           23 <FavoriteIcon />
           </IconButton>
           <IconButton aria-label="share">
-            <ShareIcon />
+           2 <ShareIcon />
           </IconButton>
-        </CardActions>
+        </CardActions> */}
 
         <Divider />
 
