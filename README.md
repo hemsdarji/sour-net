@@ -1,8 +1,14 @@
-# React + Vite
+# Sour-Net: Facebook-style Social Media Webpage
+Welcome to Sour-Net Webpage! This project showcases a Facebook-style social media webpage created using Material-UI and React.js. The webpage replicates the look and feel of a social media platform, enabling users to interact, post, and explore content.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### About the Technologies
+         Material-UI: A popular React UI framework that provides a set of well-designed and customizable components following the Material Design guidelines.
+         React.js: A JavaScript library for building user interfaces, enabling the creation of dynamic and interactive web applications.
 
-Currently, two official plugins are available:
+### Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Social Media Interface: Create an interface that emulates the familiar design of a social media platform like Facebook, allowing users to post updates, comment, and like posts.
+
+Material-UI Styling: Utilize Material-UI components and styling to maintain a clean and visually appealing user interface.
+
+Responsive Design: The webpage is designed to be responsive, ensuring an optimal experience on various devices.
